@@ -26,7 +26,7 @@ var articles = {
     }
  };   
 
-function articletemplate(data)
+function articletemplate (data)
 {
     var title=data.title;
     var a=data.a;
@@ -57,6 +57,7 @@ function articletemplate(data)
     </body>
 </html>
  `;
+ return htmlfile;
 }
 
 app.get('/', function (req, res) {
@@ -64,7 +65,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articlename', function(req,res){
-    res.send(articletemplate(articles(articlename)));
+    res.send(articletemplate(articles[articlename]));
 });
 
 app.get('/ui/style.css', function (req, res) {
