@@ -1,3 +1,5 @@
 console.log('Loaded!');
 var element=document.getElementById("main-text");
-element.innerHTML='new value';
+element.onclick = function() {
+  element.innerHTML='new value';  
+};
