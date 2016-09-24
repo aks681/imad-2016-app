@@ -8,20 +8,20 @@ app.use(morgan('combined'));
 var articles = {
    article1: {
      title: 'Article #1',
-     a: 'home',
+     a: 'Home',
      head: 'Hey everyone and welcome to the first article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'
      },
     'article2': {
      title: 'Article #1',
      a: 'home',
-     head: 'Hey everyone and welcome to the first article',
+     head: 'Hey everyone and welcome to the second article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'   
     },
     'article3': {
      title: 'Article #1',
      a: 'Home',
-     head: 'Hey everyone and welcome to the first article',
+     head: 'Hey everyone and welcome to the third article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'  
     }
  };   
