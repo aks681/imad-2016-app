@@ -13,13 +13,13 @@ var articles = {
      content: 'Hello Allll, this is just an article for no reason, more is following.....'
      },
     'article2': {
-     title: 'Article #1',
+     title: 'Article #2',
      a: 'home',
      head: 'Hey everyone and welcome to the second article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'   
     },
     'article3': {
-     title: 'Article #1',
+     title: 'Article #3',
      a: 'Home',
      head: 'Hey everyone and welcome to the third article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'  
