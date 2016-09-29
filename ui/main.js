@@ -13,3 +13,12 @@ element.onclick = function() {
  img.onclick = function() {
      var interval = setInterval(moveright,50);
  };
+ 
+ var element=document.getElementById("button");
+ var counter=0;
+ element.onclick =function() {
+   var request=new XMLHttpRequest();
+   counter=counter+1;
+   var span=document.getElementById('count');
+   span.innerHTML=counter.toString();
+ };
