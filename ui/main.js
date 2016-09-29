@@ -35,9 +35,9 @@ element.onclick = function() {
  var name=nameInput.value;
  var submit = document.getElementById("submitbtn");
  submit.onclick = function() {
-    var names=['Akshay','Me','You','Us']; 
+    var names=['Akshay' , 'Me' , 'You' , 'Us']; 
     var list='';
-    for (var i=0; i< names.length; i++){
+    for (var i=0; i < names.length; i++){
         list+='<li>'+names[i]+'</li>';
     }
     var ul=document.getElementById("namelist");
