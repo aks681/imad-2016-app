@@ -31,16 +31,16 @@ element.onclick = function() {
    request.send(null);
  };
  
- var nameInput = document.getElementById("name");
- var name=nameInput.value;
- var submit = document.getElementById("submitbtn");
+ var nameInput = document.getElementById('name');
+ var nameinp=nameInput.value;
+ var submit = document.getElementById('submitbtn');
  submit.onclick = function() {
-    var names=['Akshay' , 'Me' , 'You' , 'Us']; 
+    var names = ['Akshay' , 'Me' , 'You' , 'Us']; 
     var list='';
     for (var i=0; i < names.length; i++){
-        list+='<li>'+names[i]+'</li>';
+        list+= '<li>' + names[i] +  '</li>';
     }
-    var ul=document.getElementById("namelist");
-    ul.InnerHTML=list;
+    var ul=document.getElementById('namelist');
+    ul.innerHTML=list;
  };
  
