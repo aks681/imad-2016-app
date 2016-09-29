@@ -27,6 +27,6 @@ element.onclick = function() {
          }
        }
    };
-   request.open('http://aks681.imad.hasura-app.io/counter',true);
+   request.open('GET','http://aks681.imad.hasura-app.io/counter',true);
    request.send(null);
  };
