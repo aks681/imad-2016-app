@@ -31,8 +31,6 @@ element.onclick = function() {
    request.send(null);
  };
  
- var nameInput = document.getElementById('name');
- var nameinp=nameInput.value;
  var submit = document.getElementById('submitbtn');
  submit.onclick = function() {
      var request = new XMLHttpRequest();
@@ -50,6 +48,8 @@ element.onclick = function() {
           }
        }
       };
+    var nameInput = document.getElementById('name');
+    var nameinp=nameInput.value;
     request.open('GET','http://aks681.imad.hasura-app.io/submitname?name='+nameinp,true);
     request.send(null);
    
