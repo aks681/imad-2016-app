@@ -67,7 +67,7 @@ element.onclick = function() {
               for (var i=0; i < comments.length; i++){
                list+= comments[i] +  '<br>';
                } 
-               var ul=document.getElementById('comments');
+               var ul=document.getElementById('comment');
                ul.innerHTML=list;
           }
        }
