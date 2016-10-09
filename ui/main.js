@@ -72,9 +72,9 @@ element.onclick = function() {
           }
        }
       };
-    var nameInput = document.getElementById('name');
-    var nameinp=nameInput.value;
-    request.open('GET','http://aks681.imad.hasura-app.io/submitcomment?comment='+nameinp,true);
+    var inputcomment = document.getElementById('comments');
+    var comm=inputcomment.value;
+    request.open('GET','http://aks681.imad.hasura-app.io/submitcomment?comment='+comm,true);
     request.send(null);
    
  };
