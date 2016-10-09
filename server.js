@@ -56,7 +56,7 @@ function articletemplate (data)
         </div>
         <br><br>
         <input type='text' id = 'comments' placeholder='Type Your Comments Here'></input>
-        <input type='submit' value='Submit' id='submitbtn2'></input>
+        <input type='submit' value='Submit' id='submitbtnII'></input>
         <br>
         <div id='comment'>
         </div>
