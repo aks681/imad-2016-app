@@ -60,6 +60,8 @@ function articletemplate (data)
         <br>
         <div id='comment'>
         </div>
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
     </body>
 </html>
  `;
