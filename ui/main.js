@@ -55,20 +55,19 @@ element.onclick = function() {
    
  };
  
- var submit2 = document.getElementById('submitbtn2');
- submit2.onclick = function() {
+ var submitII = document.getElementById('submitbtnII');
+ submitII.onclick = function() {
      var request = new XMLHttpRequest();
       request.onreadystatechange = function(){
        if(request.readyState === XMLHttpRequest.DONE ){
          if(request.status === 200){
               var comments = request.responseText;
               comments=JSON.parse(comments);
-              var list='';
+              var div=document.getElementById('comment');
               for (var i=0; i < comments.length; i++){
-               list+= comments[i] +  '<br>';
+               div.innerHTML+=comments[i];
                } 
-               var ul=document.getElementById('comment');
-               ul.innerHTML=list;
+              div.innerHTML='<br>';
           }
        }
       };
