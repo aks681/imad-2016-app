@@ -65,7 +65,7 @@ element.onclick = function() {
               comments=JSON.parse(comments);
               var text='';
               for (var i=0; i < comments.length; i++){
-               text+='<div>' + comments[i] + '</div>';
+               text+= '<li>' + names[i] +  '</li>';
                } 
                var div=document.getElementById('comment');
                div.innerHTML=text;
