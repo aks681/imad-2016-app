@@ -65,11 +65,10 @@ element.onclick = function() {
               comments=JSON.parse(comments);
               var text='';
               for (var i=0; i < comments.length; i++){
-               text+=comments[i];
+               text+='<div>' + comments[i] + '</div>';
                } 
                var div=document.getElementById('comment');
                div.innerHTML=text;
-               div.innerHTML='<br>';
           }
        }
       };
