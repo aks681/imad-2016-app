@@ -63,11 +63,13 @@ element.onclick = function() {
          if(request.status === 200){
               var comments = request.responseText;
               comments=JSON.parse(comments);
-              var div=document.getElementById('comment');
+              var text='';
               for (var i=0; i < comments.length; i++){
-               div.innerHTML+=comments[i];
+               text+=comments[i];
                } 
-              div.innerHTML='<br>';
+               var div=document.getElementById('comment');
+               div.innerHTML=text;
+               div.innerHTML='<br>';
           }
        }
       };
