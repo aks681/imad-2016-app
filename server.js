@@ -54,6 +54,12 @@ function articletemplate (data)
                 ${content}
             </p>
         </div>
+        <br><br>
+        <input type='text' id = 'comments' placeholder='Type Your Comments Here'></input>
+        <input type='submit' value='Submit' id='submitbtn2'></input>
+        <br>
+        <div id='comments'>
+        </div>
     </body>
 </html>
  `;
@@ -75,6 +81,13 @@ app.get('/submitname',function(req,res){
    var name=req.query.name;
    names.push(name);
    res.send(JSON.stringify(names));
+});
+
+var comments=[];
+app.get('/submitcomment',function(req,res){
+   var comment=req.query.comment;
+   comments.push(comment);
+   res.send(JSON.stringify(comments));
 });
 
 
