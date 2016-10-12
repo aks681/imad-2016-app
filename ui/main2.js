@@ -8,7 +8,7 @@ var submit = document.getElementById('submitbtn');
               comments=JSON.parse(comments);
               var comment='';
               for (var i=0; i < comments.length; i++){
-               comment+= comments[i] +  '<br>';
+               comment+= comments[i] +  '<br>' + '<hr/>' + '<br>';
                } 
                var div=document.getElementById('commentlist');
                div.innerHTML=comment;
