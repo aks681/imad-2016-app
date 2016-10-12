@@ -101,20 +101,6 @@ app.get('/ui/article.html/submitcomment',function(req,res){
    res.send(JSON.stringify(comments));
 });
 
-var comments=[];
-app.get('/article2/submitcomment',function(req,res){
-   var comment=req.query.comment;
-   comments.push(comment);
-   res.send(JSON.stringify(comments));
-});
-
-var comments=[];
-app.get('/article3/submitcomment',function(req,res){
-   var comment=req.query.comment;
-   comments.push(comment);
-   res.send(JSON.stringify(comments));
-});
-
 app.get('/:articlename', function(req,res){
     var articlename=req.params.articlename;
     res.send(articletemplate(articles[articlename]));
