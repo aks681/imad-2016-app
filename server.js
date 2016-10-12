@@ -33,6 +33,7 @@ function articletemplate (data)
     var head=data.head;
     var content=data.content;
     var htmlfile = ` 
+    <!doctype html>
     <html>
     <head>
         <title>
