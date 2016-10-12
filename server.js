@@ -58,8 +58,8 @@ function articletemplate (data)
             <div class='footer'>
               <input type='text' id = 'comments' placeholder='Comments'></input>
               <input type='submit' value='Submit' id='submitbtn'></input>
-              <div id='commentlist'>
-              </div>
+              <ul id='commentlist'>
+              </ul>
             </div>
          </div>
         <script type="text/javascript" src="/ui/main2.js">
