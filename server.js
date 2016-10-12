@@ -55,12 +55,12 @@ function articletemplate (data)
               ${content}
             </p>
             <br><br>
+            <h3> Comments Section </h3>
+            <br>
             <div class='footer'>
               <input type='text' id = 'comments' placeholder='Comments'></input>
               <input type='submit' value='Submit' id='submitbtn'></input>
-              <br><br>
-              <h3> Comments Section </h3>
-              <br>
+              <br><br><br>
               <div id='commentlist'>
               </div>
             </div>
