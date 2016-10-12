@@ -1,7 +1,7 @@
 body {
     font-family: Times New Roman;
     background-image: url("/ui/100366.jpg");
-    background-size: cover;
+    background-size: auto;
     background-color: white;
     margin-top: 75px;
 }
