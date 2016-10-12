@@ -6,9 +6,9 @@ var submit = document.getElementById('submitbtn');
          if(request.status === 200){
               var comments = request.responseText;
               comments=JSON.parse(comments);
-              var text='';
+              var list='';
               for (var i=0; i < comments.length; i++){
-               text+= '<li>' + comments[i] +  '</li>';
+               list+= '<li>' + comments[i] +  '</li>';
                } 
                var ul=document.getElementById('commentlist');
                ul.innerHTML=list;
