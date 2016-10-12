@@ -55,11 +55,13 @@ function articletemplate (data)
                  ${content}
              </p>
           <br><br>
-          <input type='text' id='comments' placeholder='Type Your Comments Here'></input>
-          <input type='submit' value='Submit' id='submitbtnII'></input>
-          <br>
-          <ul id='commentlist'>
-          </ul>
+          <div class='footer'>
+            <input type='text' id='comments' placeholder='Type Your Comments Here'></input>
+            <input type='submit' value='Submit' id='submitbtnII'></input>
+            <br>
+            <ul id='commentlist'>
+            </ul>
+          </div>
         </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
