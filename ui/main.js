@@ -3,17 +3,6 @@ var element=document.getElementById("main-text");
 element.onclick = function() {
   element.innerHTML='I am interested in Computer and electronics...';  
 };
- var img=document.getElementById("img");
- var marginleft=0;
- function moveright()
- {
-     marginleft=marginleft+5;
-     img.style.marginLeft=marginleft+'px';
- }
- img.onclick = function() {
-      
- };
- 
  var button=document.getElementById('counter');
  
  button.onclick = function() {
