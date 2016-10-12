@@ -44,7 +44,7 @@ element.onclick = function() {
    
  };
  
- var submitII = document.getElementById('submitbtnII');
+ var submitII = document.getElementById('submitbtnii');
  submitII.onclick = function() {
      var request = new XMLHttpRequest();
       request.onreadystatechange = function(){
@@ -56,8 +56,8 @@ element.onclick = function() {
               for (var i=0; i < comments.length; i++){
                text+= '<li>' + names[i] +  '</li>';
                } 
-               var div=document.getElementById('commentlist');
-               div.innerHTML=text;
+               var ul=document.getElementById('commentlist');
+               ul.innerHTML=text;
           }
        }
       };
