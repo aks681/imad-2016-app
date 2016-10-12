@@ -44,7 +44,6 @@ function articletemplate (data)
     </head>
     <body>
         <div class='container'> 
-            You've visited this page <span id="count">0</span> times..<br>
             <div>
               <a href='/'>${a}</a>
             </div>
