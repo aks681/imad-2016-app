@@ -43,23 +43,23 @@ function articletemplate (data)
     </head>
     <body>
         <div class='container'> 
-         <div>
-         <a href='/'>${a}</a>
-         </div>
-         <hr/>
-            <h3 align='center' color='black'>
-               ${head}
-            </h3>
-            <p>
-                ${content}
-            </p>
+          <div>
+          <a href='/'>${a}</a>
+          </div>
+           <hr/>
+             <h3 align='center' color='black'>
+                ${head}
+             </h3>
+             <p>
+                 ${content}
+             </p>
+          <br><br>
+          <input type='text' id='comments' placeholder='Type Your Comments Here'></input>
+          <input type='submit' value='Submit' id='submitbtnII'></input>
+          <br>
+          <ul id='commentlist'>
+          </ul>
         </div>
-        <br><br>
-        <input type='text' id = 'comments' placeholder='Type Your Comments Here'></input>
-        <input type='submit' value='Submit' id='submitbtnII'></input>
-        <br>
-        <ul id='commentlist'>
-        </ul>
         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
