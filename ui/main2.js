@@ -19,5 +19,4 @@ var submit = document.getElementById('submitbtn');
     var comminp=inputcomment.value;
     request.open('GET','http://aks681.imad.hasura-app.io/article1/submitcomment?comment='+comminp,true);
     request.send(null);
-   
- };
+};
