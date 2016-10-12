@@ -17,7 +17,7 @@
       };
     var nameInput = document.getElementById('comments');
     var nameinp=nameInput.value;
-    request.open('GET','http://aks681.imad.hasura-app.io/submitcomment?comment='+nameinp,true);
+    request.open('GET','http://aks681.imad.hasura-app.io/ui/article.html/submitcomment?comment='+nameinp,true);
     request.send(null);
    
  };
