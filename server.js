@@ -14,7 +14,7 @@ var articles = {
      },
     'article2': {
      title: 'Article #2',
-     a: 'home',
+     a: 'Home',
      head: 'Hey everyone and welcome to the second article',
      content: 'Hello Allll, this is just an article for no reason, more is following.....'   
     },
@@ -58,7 +58,9 @@ function articletemplate (data)
             <div class='footer'>
               <input type='text' id = 'comments' placeholder='Comments'></input>
               <input type='submit' value='Submit' id='submitbtn'></input>
-              <br><br><br>
+              <br><br>
+              <h3> Comments Section </h3>
+              <br>
               <div id='commentlist'>
               </div>
             </div>
