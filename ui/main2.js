@@ -4,20 +4,20 @@ var submit = document.getElementById('submitbtn');
       request.onreadystatechange = function(){
        if(request.readyState === XMLHttpRequest.DONE ){
          if(request.status === 200){
-              var names = request.responseText;
-              names=JSON.parse(names);
+              var comments = request.responseText;
+              comments=JSON.parse(comments);
               var list='';
-              for (var i=0; i < names.length; i++){
-               list+= '<li>' + names[i] +  '</li>';
+              for (var i=0; i < comments.length; i++){
+               list+= '<li>' + commentss[i] +  '</li>';
                } 
                var ul=document.getElementById('commentlist');
                ul.innerHTML=list;
           }
        }
       };
-    var nameInput = document.getElementById('comments');
-    var nameinp=nameInput.value;
-    request.open('GET','http://aks681.imad.hasura-app.io/ui/article.html/submitcomment?comment='+nameinp,true);
+    var inputcomment = document.getElementById('comments');
+    var comminp=inputcomment.value;
+    request.open('GET','http://aks681.imad.hasura-app.io/ui/article.html/submitcomment?comment='+comminp,true);
     request.send(null);
    
  };
