@@ -96,6 +96,13 @@ app.get('/article1/submitcomment',function(req,res){
 });
 
 var comments=[];
+app.get('/ui/article.html/submitcomment',function(req,res){
+   var comment=req.query.comment;
+   comments.push(comment);
+   res.send(JSON.stringify(comments));
+});
+
+var comments=[];
 app.get('/article2/submitcomment',function(req,res){
    var comment=req.query.comment;
    comments.push(comment);
