@@ -62,8 +62,6 @@ function articletemplate (data)
             </ul>
          </div>
          </div>
-        <script type="text/javascript" src="/ui/main2.js">
-        </script>
     </body>
 </html>
  `;
