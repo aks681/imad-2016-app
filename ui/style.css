@@ -1,6 +1,7 @@
 body {
     font-family: Times New Roman;
     background: linear-gradient(black,white);
+    background-size: cover;
     margin-top: 75px;
 }
 
