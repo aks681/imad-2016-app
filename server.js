@@ -89,7 +89,7 @@ app.get('/submitname',function(req,res){
 });
 
 var comments=[];
-app.get('/article1/submitcomment',function(req,res){
+app.get('/submitcomment',function(req,res){
    var comment=req.query.comment;
    comments.push(comment);
    res.send(JSON.stringify(comments));
@@ -98,10 +98,6 @@ app.get('/article1/submitcomment',function(req,res){
 app.get('/:articlename', function(req,res){
     var articlename=req.params.articlename;
     res.send(articletemplate(articles[articlename]));
-});
-
-app.get('/ui/article.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
