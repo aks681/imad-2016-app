@@ -61,7 +61,9 @@ function articletemplate (data)
             <div class='footer'>
               <input type='text' id = 'comments' placeholder='Type Your Comments Here'></input>
               <input type='submit' value='Submit' id='submitbtn'></input>
-              <br><br><br>
+              <br><br>
+              <h4>Previous Comments</h4>
+              <br>
               <div id='commentlist'>
               </div>
             </div>
