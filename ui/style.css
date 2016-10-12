@@ -1,7 +1,7 @@
 body {
     font-family: Times New Roman;
     background-image: url("/ui/100366.jpg");
-    background-size: cover;
+    background-size: contain;
     background-color: white;
     margin-top: 75px;
 }
@@ -9,7 +9,7 @@ body {
 .center {
     text-align: center;
     background-image: url("/ui/80751.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 
 .text-big {
