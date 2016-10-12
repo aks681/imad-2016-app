@@ -10,19 +10,19 @@ var articles = {
      title: 'Article #1',
      a: 'Home',
      head: 'Hey everyone and welcome to the first article',
-     content: 'Hello Allll, this is just an article for no reason, more is following.....'
+     content: 'This is just an article written for testing. The comments written on this article can be viewed across all the published three articles. Thank You for visiting this article.'
      },
     'article2': {
      title: 'Article #2',
      a: 'Home',
      head: 'Hey everyone and welcome to the second article',
-     content: 'Hello Allll, this is just an article for no reason, more is following.....'   
+     content: 'This is also an article written simply for no reason and is undergoing testing. Here, once you write a comment, you can view the comments written in other articles as well as this one. Again, thank you for visiting this article.'   
     },
     'article3': {
      title: 'Article #3',
      a: 'Home',
      head: 'Hey everyone and welcome to the third article',
-     content: 'Hello Allll, this is just an article for no reason, more is following.....'  
+     content: 'This is the final article published for testing. Same as previous two, once you write a comment here, The current comment as well as previous comments can be viewed below. Again, Thank You for visiting here. '  
     }
  };   
 
