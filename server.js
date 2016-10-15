@@ -43,6 +43,7 @@ function articletemplate (data)
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
+        You've visited this page <span id='count'>0</span> times
         <div class='container'> 
             <div>
               <a href='/'>${a}</a>
@@ -69,6 +70,8 @@ function articletemplate (data)
             </div>
          </div>
         <script type="text/javascript" src="/ui/main2.js">
+        </script>
+         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
 </html>
