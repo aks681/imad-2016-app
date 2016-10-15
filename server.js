@@ -113,12 +113,8 @@ app.get('/ui/me.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'me.jpg'));
 });
 
-app.get('/ui/100366.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '100366.jpg'));
-});
-
-app.get('/ui/80751.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '80751.jpg'));
+app.get('/ui/20160127_142605.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '20160127_142605.jpg'));
 });
 
 app.get('/ui/main.js', function (req, res) {
